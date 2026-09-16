@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="id"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="theme-color" content="#f7f8fa"/><meta name="description" content="Jembatan gratis untuk memahami pemrograman Android. Pahami konsep Kotlin + XML dan Jetpack Compose, lihat contoh kode, lalu dalami di dokumentasi resmi Android."/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><meta name="author" content="Erwin Firmansyah"/><title>Kotluma — Belajar Android untuk semua</title><script>
+(function () {
+  var theme = 'light';
+  try { var saved = localStorage.getItem('kotluma.theme'); theme = saved === 'dark' || saved === 'light' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); } catch (_) {}
+  document.documentElement.dataset.theme = theme;
+  document.documentElement.style.colorScheme = theme;
+  document.documentElement.style.backgroundColor = theme === 'dark' ? '#22232d' : '#f7f8fa';
+  document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#22232d' : '#f7f8fa');
+})();
+</script></head><body><div id="app"></div><script type="module" src="/src/main.js"></script></body></html>
